@@ -1,0 +1,313 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+#hero{
+    color: #fff;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imgs/background.png) no-repeat;
+    padding: 8px 0;
+    height: 837px;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu li{
+    display: inline-block;
+    /* padding: 0 20px; */
+}
+
+#menu li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#menu li a:hover{
+    color: #6C7BD7;
+}
+
+.details{
+    margin-top: 300px;
+    color: #fff;
+}
+
+.one{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.two{
+    margin: 0;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.two span{
+    font-weight: 800;
+}
+
+.three{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.social{
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.social i{
+    padding: 5px;
+    font-size: 33px;
+}
+
+.hero-button{
+    padding: 8px 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section{
+    padding: 90px 0;
+}
+
+.section p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section h2{
+    font-size: 22px;
+    color: #8e8e8e;
+}
+
+.section h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #6C7BD7;
+}
+
+.providing img{
+    display: block;
+    margin: auto;
+    height: 60px;
+    margin: 25px auto;
+
+    /* aspect-ratio: 9/6; */
+    /* height: 50px; */
+}
+
+.providing h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.progressbar{
+    background-color: #6C7BD7;
+    padding: 40px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.data{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    /* line-height: 114%; */
+}
+
+.data div{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 8px;
+}
+
+.tech img{
+    height: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.tech h4{
+    display: inline-block;
+    padding-left: 20px;
+    /* padding-top: 40px; */
+}
+
+.tech ul{
+    padding-left: 100px;
+}
+
+.process{
+    background: #6C7BD7;
+}
+.step{
+    color: white;
+    /* background: #6C7BD7; */
+    padding: 40px 20px;
+}
+
+.step h3{
+    font-weight: 700;
+}
+
+.testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../imgs/testimonials.png);
+    color: #fff;
+}
+
+.reviews{
+    margin-top: 40px;
+}
+.review{
+    height: 77px;
+    width: 77px;
+    clip-path: circle(50.0% at 50% 50%);
+    object-fit: cover;
+    /* margin-top:120px; */
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+    
+}
+
+.comment{
+    z-index: 1;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    bottom: 87px;
+    right: 15px;
+    /* margin-top:120px; */
+}
+
+.reviews p{
+    display: inline-block;
+    /* padding-left: 100px; */
+    width: 520px;
+}
+
+h5#testimonial-name{
+    float: right;
+    width: 230px;
+    
+}
+
+.discuss{
+    background:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../imgs/discuss.png);
+}
+.discuss #lets-discuss{
+    font-weight: 500;
+    color: white;
+}
+
+.discuss a.btn{
+    margin-top: 30px;
+}
+
+.about .about-details{
+    padding: 20px;
+}
+
+.about .white{
+    background-color: #fff;
+    padding: 0;
+}
+
+.about .white p{
+    padding: 15px;
+    width: 540px;
+    float: right;
+}
+
+
+.about .white::before{
+    content: "";
+    background: black;
+    width: 5px;
+    display: inline-block;
+    height: 150px;
+    /* position: relative;
+    top:160px;
+    left: 5px; */
+}
+
+.contact{
+    background:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../imgs/footer.png);
+    color: white;
+    padding-top: 90px;
+}
+
+.contact p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact h2{
+    font-size: 22px;
+    color: #8e8e8e;
+}
+
+.contact h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #6C7BD7;
+}
+
+.find-us{
+    float: right;
+    text-align: end;
+}
+
+.find-us i{
+    font-size: 30px;
+    padding: 4px;
+}
+
+.contact-form .name,.contact-form .email{
+    width: 600px;
+    border-radius: 6px;
+    border: none;
+    margin: 30px 0 30px 0;
+    padding: 10px 20px;
+}
+
+.contact-form textarea{
+    margin-bottom: 20px;
+}
+
+.contact-form .name{
+    margin-right: 45px;
+}
+
+.contact-form .email{
+    margin-left: 45px;
+}
+
+.contact-form .message{
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.copyright{
+    padding: 50px;
+}
